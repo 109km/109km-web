@@ -2,7 +2,7 @@
 
 // had enabled by egg
 // exports.static = true;
-exports.nunjucks = {
+exports.react = {
   enable: true,
-  package: 'egg-view-nunjucks'
+  package: 'egg-view-react'
 };

@@ -10,9 +10,10 @@ module.exports = appInfo => {
   config.middleware = [];
 
   config.view = {
-    defaultViewEngine: 'nunjucks',
+    defaultViewEngine: 'react',
     mapping: {
-      '.html': 'nunjucks'
+      'js':'react',
+      '.jsx': 'react'
     },
   };
 

@@ -4,7 +4,7 @@ const Controller = require('egg').Controller;
 
 class HomeController extends Controller {
   async index(ctx) {
-    await ctx.render('index.html',{ userName: '109km' });
+    await ctx.render('index.jsx',{ userName: '109km' });
   }
 }
 
